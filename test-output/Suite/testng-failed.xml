@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test(failed)">
+    <classes>
+      <class name="TestCases.LoginModel">
+        <methods>
+          <include name="AfterMethod"/>
+          <include name="BeforeClass"/>
+          <include name="TC_Login_001"/>
+          <include name="Tc_Login_002"/>
+          <include name="BeforeMethod"/>
+          <include name="AfterClass"/>
+        </methods>
+      </class> <!-- TestCases.LoginModel -->
+      <class name="TestCases.VerifyWomensModule">
+        <methods>
+          <include name="AfterMethod"/>
+          <include name="BeforeClass"/>
+          <include name="Tc_Women_003"/>
+          <include name="BeforeMethod"/>
+          <include name="AfterClass"/>
+        </methods>
+      </class> <!-- TestCases.VerifyWomensModule -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test thread-count="5" parallel="tests" name="Test1(failed)">
+    <classes>
+      <class name="TestCases.LoginModel">
+        <methods>
+          <include name="AfterMethod"/>
+          <include name="BeforeClass"/>
+          <include name="TC_Login_001"/>
+          <include name="Tc_Login_002"/>
+          <include name="BeforeMethod"/>
+          <include name="AfterClass"/>
+        </methods>
+      </class> <!-- TestCases.LoginModel -->
+      <class name="TestCases.VerifyWomensModule">
+        <methods>
+          <include name="AfterMethod"/>
+          <include name="BeforeClass"/>
+          <include name="Tc_Women_003"/>
+          <include name="BeforeMethod"/>
+          <include name="AfterClass"/>
+        </methods>
+      </class> <!-- TestCases.VerifyWomensModule -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
