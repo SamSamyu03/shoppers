@@ -31,6 +31,8 @@ public class VerifyWomensModule extends BaseClass{
 //		assr.assertAll();
 //		System.out.println("by");
 		
+		System.out.println("Done");
+		
 		if(actualResult.contains("Fabric : Rayon")) {
 			
 			System.out.println("The test case is pass");
